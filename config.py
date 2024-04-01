@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UnxAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/UnxSupportChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+fVfxoxjQUWkyYjRl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+FhHKC8lgodZlNzc1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,10 +81,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ae65f816946cd988dbe48.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/f2563c2662639569afd82.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/a350d388650cc8fb86ebb.jpg"
+    "PING_IMG_URL", "https://graph.org/file/b7fd823ad876e168b0e28.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
