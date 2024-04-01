@@ -32,9 +32,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/UnxAssociation/UnxMusicBot/",
+    "https://github.com/AnonymousX1025/AnonXMusic/",
 )
 
+REPO_URL = "https://github.com/UnxAssociation/UnxMusicBot"
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
