@@ -19,7 +19,7 @@ from config import adminlist
 
 IS_BROADCASTING = False
 
-@app.on_message(filters.command(["nfbroadcast", "noforwardbroadcast"]) & SUDOERS)
+@app.on_message(filters.command("nfbroadcast") & SUDOERS)
 @language
 async def nfbraodcast_message(client, message, _):
     global IS_BROADCASTING
